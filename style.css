@@ -1,0 +1,67 @@
+body{
+    background: var(--blue);
+    height: 100vh;
+}
+
+boddy > div {
+    position: relative;
+    min-height: 100vh;
+}
+
+body > div > form {
+    background: var(--white);
+    border-radius: 10px;
+    height: 55vh;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 20%;
+
+    min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    /* justify-content: space-around; */
+}
+
+body > div > form > div{
+    margin: 15px 0;
+    width: 80%;
+}
+
+body > div > form > img{
+    height: 15rem;
+    width: 15rem;
+    border: 3px solid var(--black);
+    border-radius: 50%;
+}
+
+label{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+input{
+    background: var(--grey);
+    border: none;
+    border-radius: 5px;
+    cursor: no-drop;
+    margin: 5px 0 20px 0;
+    padding: 10px 3px;
+    outline: none;
+    width: 100%;
+}
+
+button{
+    background: var(--orange);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+    height: 4rem;
+    width: 70%;
+}
